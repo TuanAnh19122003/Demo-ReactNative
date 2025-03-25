@@ -1,6 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, FlatList, Image } from 'react-native'
 import React from 'react'
-import Icon from '@react-native-vector-icons/evil-icons';
+import Icon from '@react-native-vector-icons/ionicons';
 
 const Data = [
     {
@@ -58,7 +58,7 @@ export default function homeScreen() {
             <View style={styles.sty}>
                 <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Reading</Text>
                 <TouchableOpacity>
-                    <Text>View all <Icon name='arrow-right' size={20} /></Text>
+                    <Text>View all <Icon name='arrow-forward-outline' size={20} /></Text>
                 </TouchableOpacity>
             </View>
             <View style={{}}>
@@ -78,7 +78,7 @@ export default function homeScreen() {
             <View style={styles.sty}>
                 <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Bookself</Text>
                 <TouchableOpacity>
-                    <Text>View all <Icon name='arrow-right' size={20} /></Text>
+                    <Text>View all <Icon name='arrow-forward-outline' size={20} /></Text>
                 </TouchableOpacity>
             </View>
             <View style={{}}>

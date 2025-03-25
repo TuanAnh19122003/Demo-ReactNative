@@ -5,7 +5,8 @@ import EvilIcons from '@react-native-vector-icons/evil-icons';
 import Icon from '@react-native-vector-icons/fontawesome6';
 import LoginScreen from './src/components/screens/LoginScreen';
 import RegisterScreen from './src/components/screens/RegisterScreen';
-import HomeScreen from './src/components/screens/homeScreen';
+import HomeScreen from './src/components/screens/HomeScreen';
+import DetailScreen from './src/components/screens/DetailScreen';
 
 export default function App() {
   return (
@@ -19,7 +20,8 @@ export default function App() {
       </Modal> */}
       {/* <LoginScreen /> */}
       {/* <RegisterScreen /> */}
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <DetailScreen />
     </View>
   );
 }
