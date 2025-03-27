@@ -7,6 +7,7 @@ import LoginScreen from './src/components/screens/LoginScreen';
 import RegisterScreen from './src/components/screens/RegisterScreen';
 import HomeScreen from './src/components/screens/HomeScreen';
 import DetailScreen from './src/components/screens/DetailScreen';
+import CartScreen from './src/components/screens/CartScreen';
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
       {/* <LoginScreen /> */}
       {/* <RegisterScreen /> */}
       {/* <HomeScreen /> */}
-      <DetailScreen />
+      {/* <DetailScreen /> */}
+      <CartScreen />
     </View>
   );
 }

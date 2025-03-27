@@ -43,7 +43,7 @@ const Item = ({ title }: ItemProps) => (
     </View>
 );
 
-export default function homeScreen() {
+export default function HomeScreen() {
     return (
         <View style={{ padding: 10 }}>
             <View>
